@@ -14,10 +14,10 @@ LABEL build_version="lucidnonsense version:- ${VERSION} Build-date:- ${BUILD_DAT
 # add local files, set custom NGINX directory
 COPY root /
 
-RUN sudo apk update
-RUN sudo apk --no-cache add gettext iptables
-RUN sudo envsubst "$PORTS" < /etc/templates/default > /defaults/default
-RUN sudo chmod 777 /defaults/default
+#RUN sudo apk update
+#RUN sudo apk --no-cache add gettext iptables
+#RUN sudo envsubst "$PORTS" < /etc/templates/default > /defaults/default
+#RUN sudo chmod 777 /defaults/default
     
 # ports and volumes
 VOLUME /config
