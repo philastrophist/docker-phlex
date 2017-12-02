@@ -1,4 +1,4 @@
-FROM lsioarmhf/nginx-aarch64
+FROM tobi312/rpi-php
 MAINTAINER lucidnonsense
 
 # set version label
