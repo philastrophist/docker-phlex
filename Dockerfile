@@ -1,4 +1,4 @@
-FROM linuxserver/docker-nginx-arm64:latest
+FROM lsioarmhf/nginx-aarch64
 MAINTAINER lucidnonsense
 
 # set version label
