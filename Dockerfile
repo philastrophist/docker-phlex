@@ -18,7 +18,7 @@ RUN apk update
 RUN apk --no-cache add gettext iptables
 RUN envsubst "$PORTS" < /etc/templates/default > /defaults/default
 RUN chmod 777 /defaults/default
-    
+
 # ports and volumes
 VOLUME /config
 
